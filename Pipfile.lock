@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fc5e45fa0c52b7add2489367a943169700267b30a94bfe678e416cdc0a12dc83"
+            "sha256": "f7ef8295dc6b1ce5b58b1d5f914eaeb16d4407137483ad9a3abc185bc1f98aa5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,22 @@
             "index": "pypi",
             "version": "==4.1.7"
         },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8",
+                "sha256:eb63f58c9f218e1a7d064d17a70751f528ed4e1d35547fdade9aaf4cd103fd08"
+            ],
+            "index": "pypi",
+            "version": "==3.14.0"
+        },
+        "djangorestframework-simplejwt": {
+            "hashes": [
+                "sha256:4c0d2e2513e12587d93501ac091781684a216c3ee614eb3b5a10586aef5ca845",
+                "sha256:d27d4bcac2c6394f678dea8b4d0d511c6e18a7f2eb8aaeeb8a7de601aeb77c42"
+            ],
+            "index": "pypi",
+            "version": "==5.2.2"
+        },
         "psycopg2": {
             "hashes": [
                 "sha256:093e3894d2d3c592ab0945d9eba9d139c139664dcf83a1c440b8a7aa9bb21955",
@@ -51,6 +67,14 @@
             "index": "pypi",
             "version": "==2.9.5"
         },
+        "pyjwt": {
+            "hashes": [
+                "sha256:69285c7e31fc44f68a1feb309e948e0df53259d579295e6cfe2b1792329f05fd",
+                "sha256:d83c3d892a77bbb74d3e1a2cfa90afaadb60945205d1095d9221f04466f64c14"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.6.0"
+        },
         "python-dotenv": {
             "hashes": [
                 "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba",
@@ -58,6 +82,13 @@
             ],
             "index": "pypi",
             "version": "==1.0.0"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:1d8ce29db189191fb55338ee6d0387d82ab59f3d00eac103412d64e0ebd0c588",
+                "sha256:a151b3abb88eda1d4e34a9814df37de2a80e301e68ba0fd856fb9b46bfbbbffb"
+            ],
+            "version": "==2023.3"
         },
         "sqlparse": {
             "hashes": [
