@@ -1,4 +1,4 @@
-from .models import User
+from .models import User, Provider_Profile, Seeker_Profile
 from rest_framework import serializers
 from django.contrib.auth.password_validation import validate_password
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
@@ -31,4 +31,14 @@ class RegisterSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
+        fields = "__all__"
+
+class SeekerProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Seeker_Profile
+        fields = "__all__"
+
+class ProviderProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Provider_Profile
         fields = "__all__"
